@@ -109,9 +109,17 @@ form input:focus {
   padding: 20px;
 }
 
+@font-face {
+  font-family: 'Norse Bold';
+  src: url('./Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .sidebar-logo p {
   color: #FFF;
-  font-size: 80px;
+  font-size: 120px;
+  font-family: 'Norse Bold', 'Roboto', sans-serif;
 }
 
 .sidebar-logo img {
